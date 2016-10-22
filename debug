@@ -1,0 +1,74 @@
+読み込んだプラグイン:fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: ftp.riken.jp
+ * epel: ftp.riken.jp
+ * extras: ftp.riken.jp
+ * rpmforge: ftp.riken.jp
+ * updates: ftp.riken.jp
+依存性の解決をしています
+--> トランザクションの確認を実行しています。
+---> パッケージ supervisor.noarch 0:3.1.3-3.el7 を インストール
+--> 依存性の処理をしています: python-meld3 >= 0.6.5 のパッケージ: supervisor-3.1.3-3.el7.noarch
+--> 依存性の処理をしています: python-setuptools のパッケージ: supervisor-3.1.3-3.el7.noarch
+--> トランザクションの確認を実行しています。
+---> パッケージ python-meld3.x86_64 0:0.6.10-1.el7 を インストール
+---> パッケージ python-setuptools.noarch 0:0.9.8-4.el7 を インストール
+--> 依存性の処理をしています: python-backports-ssl_match_hostname のパッケージ: python-setuptools-0.9.8-4.el7.noarch
+--> トランザクションの確認を実行しています。
+---> パッケージ python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el7 を インストール
+--> 依存性の処理をしています: python-backports のパッケージ: python-backports-ssl_match_hostname-3.4.0.2-4.el7.noarch
+--> トランザクションの確認を実行しています。
+---> パッケージ python-backports.x86_64 0:1.0-8.el7 を インストール
+--> 依存性解決を終了しました。
+
+依存性を解決しました
+
+================================================================================
+ Package                               アーキテクチャー
+                                                バージョン         リポジトリー
+                                                                           容量
+================================================================================
+インストール中:
+ supervisor                            noarch   3.1.3-3.el7        epel   445 k
+依存性関連でのインストールをします:
+ python-backports                      x86_64   1.0-8.el7          base   5.8 k
+ python-backports-ssl_match_hostname   noarch   3.4.0.2-4.el7      base    12 k
+ python-meld3                          x86_64   0.6.10-1.el7       epel    73 k
+ python-setuptools                     noarch   0.9.8-4.el7        base   396 k
+
+トランザクションの要約
+================================================================================
+インストール  1 パッケージ (+4 個の依存関係のパッケージ)
+
+総ダウンロード容量: 932 k
+インストール容量: 4.5 M
+Downloading packages:
+python-meld3-0.6.10-1.el7.x86_64.rpm の公開鍵がインストールされていません
+--------------------------------------------------------------------------------
+合計                                               3.0 MB/s | 932 kB  00:00     
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7 から鍵を取得中です。
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  インストール中          : python-backports-1.0-8.el7.x86_64               1/5 
+  インストール中          : python-backports-ssl_match_hostname-3.4.0.2-4   2/5 
+  インストール中          : python-setuptools-0.9.8-4.el7.noarch            3/5 
+  インストール中          : python-meld3-0.6.10-1.el7.x86_64                4/5 
+  インストール中          : supervisor-3.1.3-3.el7.noarch                   5/5 
+  検証中                  : python-meld3-0.6.10-1.el7.x86_64                1/5 
+  検証中                  : python-backports-1.0-8.el7.x86_64               2/5 
+  検証中                  : python-setuptools-0.9.8-4.el7.noarch            3/5 
+  検証中                  : supervisor-3.1.3-3.el7.noarch                   4/5 
+  検証中                  : python-backports-ssl_match_hostname-3.4.0.2-4   5/5 
+
+インストール:
+  supervisor.noarch 0:3.1.3-3.el7                                               
+
+依存性関連をインストールしました:
+  python-backports.x86_64 0:1.0-8.el7                                           
+  python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el7                    
+  python-meld3.x86_64 0:0.6.10-1.el7                                            
+  python-setuptools.noarch 0:0.9.8-4.el7                                        
+
+完了しました!
