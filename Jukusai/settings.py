@@ -110,7 +110,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-STATIC_URL = 'http:192.168.4.191/static/'
+STATIC_URL = 'http://133.80.162.80/static/'
 STATIC_ROOT = "/root/Jukusai/static/"
 
 

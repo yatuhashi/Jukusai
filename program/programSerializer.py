@@ -13,7 +13,7 @@ class placeSimpleSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('placeName',)
 
 class programSerializer(serializers.HyperlinkedModelSerializer):
-    place = placeSimpleSerializer()
+    place = placeSerializer()
     class Meta:
         model = program
         fields = ('pk',
